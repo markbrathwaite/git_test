@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T22:01:57.396Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="EKHeVfOpFCB9nK5thc-3" version="14.7.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-18T04:21:20.202Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="KVeVbZlGZJ8jUyWLpDit" version="14.7.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2719" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -195,6 +195,36 @@
         </mxCell>
         <mxCell id="nd-Xd3fKkMRxDk1cJ0v8-3" value="Register New User&lt;br&gt;&amp;amp; continue while new + existing users are &amp;lt;= 100" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="128.44" y="2839" width="181.87" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nd-Xd3fKkMRxDk1cJ0v8-4" value="Start Application" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="96.88" y="2990" width="245" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nd-Xd3fKkMRxDk1cJ0v8-5" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="182.5" y="3100" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nd-Xd3fKkMRxDk1cJ0v8-7" value="Get email address &amp;amp; password" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="153" y="3200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nd-Xd3fKkMRxDk1cJ0v8-8" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="185" y="3260" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nd-Xd3fKkMRxDk1cJ0v8-11" value="Email address &amp;amp; password&lt;br&gt;valid? Matches info in server database?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="65" y="3360" width="300" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="nd-Xd3fKkMRxDk1cJ0v8-12" value="" style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-32" y="3470" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nd-Xd3fKkMRxDk1cJ0v8-13" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="16" y="3450" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nd-Xd3fKkMRxDk1cJ0v8-14" value="Please enter a valid email address and password" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-274" y="3450" width="248" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nd-Xd3fKkMRxDk1cJ0v8-15" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.bendArrow;dy=15;dx=38;notch=0;arrowHead=55;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-170" y="3210" width="320" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="nd-Xd3fKkMRxDk1cJ0v8-18" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="185" y="3640" width="60" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
